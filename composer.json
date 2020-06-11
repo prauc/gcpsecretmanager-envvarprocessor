@@ -5,7 +5,7 @@
     "type": "library",
     "require": {
         "php": ">=7.2.5",
-        "symfony/dependency-injection": "^5.1",
+        "symfony/dependency-injection": "^5.1.0",
         "google/cloud-secret-manager": "^1.0"
     },
     "require-dev": {
@@ -17,5 +17,5 @@
             "homepage": "https://rauchfuss.io"
         }
     ],
-    "minimum-stability": "beta"
+    "minimum-stability": "stable"
 }
