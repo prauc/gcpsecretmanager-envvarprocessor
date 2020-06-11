@@ -1,7 +1,7 @@
 {
     "name": "rauchfuss-io/gcpsecretmanager-envvarprocessor",
     "description": "A small Symfony Custom EnvVarProcessor bundle for retrieving Secrets from GCP Secret Manager",
-    "license": "Apache 2.0",
+    "license": "Apache-2.0",
     "type": "library",
     "require": {
         "php": ">=7.2.5",
