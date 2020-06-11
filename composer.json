@@ -1,0 +1,20 @@
+{
+    "name": "rauchfuss-io/gcpsecretmanager-envvarprocessor",
+    "description": "A small Symfony Custom EnvVarProcessor bundle for retrieving Secrets from GCP Secret Manager",
+    "type": "library",
+    "require": {
+        "php": ">=7.2.5",
+        "symfony/dependency-injection": "^5.1",
+        "google/cloud-secret-manager": "^1.0"
+    },
+    "require-dev": {
+    },
+    "authors": [
+        {
+            "name": "prauc",
+            "email": "patrick.rauchfuss@gmail.com",
+            "homepage": "https://rauchfuss.io"
+        }
+    ],
+    "minimum-stability": "beta"
+}
