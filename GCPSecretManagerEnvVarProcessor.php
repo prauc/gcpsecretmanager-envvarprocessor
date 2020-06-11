@@ -1,6 +1,6 @@
 <?php
 
-namespace EnvVarProcessor;
+namespace Rauchfussio\DependencyInjection\EnvVarProcessor;
 
 use Google\Cloud\SecretManager\V1\SecretManagerServiceClient;
 use Symfony\Component\DependencyInjection\EnvVarProcessorInterface;
