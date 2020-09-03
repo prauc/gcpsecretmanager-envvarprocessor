@@ -10,6 +10,11 @@
     },
     "require-dev": {
     },
+    "autoload": {
+        "psr-4": {
+            "Rauchfussio\\GCPSecretManagerEnvVarProcessor\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "prauc",
