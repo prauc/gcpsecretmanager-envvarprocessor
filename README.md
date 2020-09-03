@@ -6,7 +6,8 @@ What is this EnvVarProcessor for the GCP Secret Manager?
 This bundle will help you to retrieve secrets from GCP Secret Manager on runtime.
 Define this service within your Symfony services.yaml by adding the following:
 ``` yaml
-Rauchfussio\DependencyInjection\EnvVarProcessor\GCPSecretManagerEnvVarProcessor:
+Rauchfussio\GCPSecretManagerEnvVarProcessor\:
+    resource: '../vendor/rauchfuss-io/gcpsecretmanager-envvarprocessor/src/*'
     tags: ['container.env_var_processor']
     arguments:
         $gcpProjectId: 'YOUR GCP PROJECTID'
